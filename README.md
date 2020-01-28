@@ -2,5 +2,5 @@
 
 At the moment includes: 
  * CV
- ![CV](https://github.com/5uperpalo/Latex_templates/CV_preview.PNG)
+ ![CV](https://github.com/5uperpalo/Latex_templates/blob/master/cv_preview.PNG)
  * Motivation letter
