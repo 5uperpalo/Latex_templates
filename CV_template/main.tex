@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% XeLaTeX Template
+%
+% This template has been downloaded and adjusted from:
+%
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to 
+\usepackage{fontawesome}
+
+\addbibresource{bibliography.bib}
+\begin{document}
+
+\header{John}{ Jack}{Yoga instructor}{\faEnvelopeO$\;$\href{mailto:john.jack@gmail.com}{john.jack@gmail.com}  }{  \faLinkedinSquare$\;$\href{http://www.linkedin.com/}{http://www.linkedin.com/}  }{  \faUser$\;$\href{http://john-jack.com/}{http://john-jack.com/}}
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Somewhere str. 20
+12345 Town
+Coutnry
++123456789 \faMobilePhone
+\section{citizenship}
+World
+\section{gender}
+NA
+\section{languages}
+all fluently
+\section{IT skills}
+all
+\section{Driving License}
+ABCD
+\end{aside}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{education}
+\begin{entrylist}
+
+\entry
+{1920--Now}
+{PhD, field of study - Telecommunications}
+{Faculty, Dep., City}
+{\emph{How to be successful}\\ The aim is to do what you like.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{experience}
+
+\begin{entrylist}
+\entry
+{01/01/1940--\\now}
+{Company name}
+{City, Country}
+{\emph{Professional psychic}\\
+Talking with ghosts etc.~\cite{example}.
+}
+
+\entry
+{01/01/1930--\\01/01/1940}
+{Another company name}
+{City, Country}
+{\emph{Warlock apprentice}\\
+Preparing potions etc.
+}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{certifications}
+\begin{entrylist}
+\entry
+{}
+{Spells and magic}
+{}
+{(i) Healing, (ii) Fireballs, (iii) Water magic lvl. 2}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests and accomplishments}
+
+\begin{entrylist}
+
+\entry
+{accomp-\\lishments}
+{1st place in hot dog eating contest\\ 
+1st place in mind reading}
+{}
+{}
+
+\entry
+{personal\\interests}
+{goblins, trolls, telepathy, telekinesis}
+{}
+{}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+
+
+\nocite{*}
+\printbibliography[heading=none,sorting=chronological]
+
+\end{document}
