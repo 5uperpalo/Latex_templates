@@ -1,5 +1,6 @@
 # Latex templates repository
 
 At the moment includes: 
- * CV![CV](CV_preview.PNG)
+ * CV
+ ![CV](https://github.com/5uperpalo/Latex_templates/CV_preview.PNG)
  * Motivation letter
