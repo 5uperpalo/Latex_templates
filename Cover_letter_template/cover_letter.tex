@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Cover Letter
+% XeLaTeX Template
+%
+% This template has been downloaded from:
+%
+% Original author:
+% Matthew Davis, based on code by
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+% https://github.com/mlda065/friggeri-letter
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX
+% You may need to compile twice for the header to appear.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,english]{friggeri-letter}
+
+\usepackage{babel}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{ragged2e}
+\newcommand{\closingnew}[1]{\par\nobreak\vspace{\parskip}%
+  \stopbreaks
+  \noindent
+  \parbox{\indentedwidth}{\raggedright
+       \ignorespaces #1\\[6\medskipamount]%
+       \ifx\@empty\fromsig
+           \fromname
+       \else \fromsig \fi\strut}%
+   \par}
+
+\def\fromaddress{\null}
+
+\signature{John Jack}
+
+\begin{document}
+
+\header{John}{ Jack}{Yoga instructor}{\faEnvelopeO$\;$\href{mailto:john.jack@gmail.com}{john.jack@gmail.com}  }{  \faLinkedinSquare$\;$\href{http://www.linkedin.com/}{http://www.linkedin.com/}  }{  \faUser$\;$\href{http://john-jack.com/}{http://john-jack.com/}}
+
+\address{
+   Somewhere str. 20 \\
+   12345 Town \\
+   Country
+}
+
+
+\letter{
+	Dream corp.\\
+	Rainbow 1\\
+	54321, Skytown\\
+	Above
+}
+
+\opening{Dear Hiring manager,}
+
+\begin{flushleft}
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod nisl nec risus pharetra dapibus. Curabitur non venenatis mauris. Quisque et venenatis enim, eget pharetra nulla. Phasellus vitae venenatis nunc. Pellentesque ultrices pulvinar ipsum. Praesent fringilla urna vel diam semper, vitae viverra leo tincidunt. Mauris et condimentum nibh. Morbi ipsum quam, interdum mattis ipsum non, ultricies laoreet erat.
+
+Nunc eleifend luctus fringilla. Curabitur hendrerit a arcu pellentesque tincidunt. Sed rhoncus elit eu interdum gravida. Nam vel consectetur purus. Donec a ullamcorper eros, congue vehicula enim. Morbi eu tincidunt orci. Cras laoreet nibh sed risus dictum interdum. Fusce tortor dolor, bibendum ut ligula a, blandit scelerisque est. Morbi ut aliquam nunc.
+
+Sed sed suscipit tellus, et bibendum sapien. Phasellus nec diam congue, rhoncus ligula tincidunt, faucibus sem. Morbi pulvinar consequat condimentum. In sit amet scelerisque nunc, sed sollicitudin sapien. Vivamus quis leo ut velit pulvinar semper. Sed ut sem vitae nisi maximus gravida et sit amet metus. Quisque eu rhoncus elit, consequat dapibus purus. Ut eget risus fermentum, accumsan ante non, molestie lectus. Suspendisse potenti. Ut ut elementum urna, eu eleifend arcu. Vestibulum dictum, magna quis gravida finibus, dui ex facilisis erat, sed elementum nulla mauris vel mauris. Nam mi nisi, vehicula quis egestas vel, laoreet vitae urna. 
+\end{flushleft}
+
+\closingnew{Sincerely,}
+
+\end{document}
