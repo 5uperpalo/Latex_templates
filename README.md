@@ -1,5 +1,5 @@
 # Latex templates repository
 
-At the moment it includes only 
+At the moment includes: 
  * CV
  * Motivation letter
